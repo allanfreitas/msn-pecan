@@ -38,6 +38,8 @@
 #include <account.h>
 #endif /* HAVE_LIBPURPLE */
 
+#include "tmp_compat.h"
+
 struct pn_contact *
 pn_contact_new (struct pn_contact_list *contactlist)
 {

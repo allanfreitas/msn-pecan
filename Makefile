@@ -108,6 +108,7 @@ objects := msn.o \
 	   io/pn_cmd_server.o \
 	   io/pn_http_server.o \
 	   io/pn_ssl_conn.o \
+	   tmp_compat.o \
 	   fix_purple.o
 
 ifdef CVR

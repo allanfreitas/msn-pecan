@@ -33,6 +33,8 @@
 #include <account.h>
 #endif /* HAVE_LIBPURPLE */
 
+#include "tmp_compat.h"
+
 struct PnDpManager
 {
     MsnSession *session;
